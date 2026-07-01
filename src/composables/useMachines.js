@@ -26,23 +26,50 @@ async function fetchAll() {
   loading.value = true
   error.value   = null
   try {
-    const results = await Promise.all(
+    // Promise.allSettled：每個 URL 各自處理，一個失敗不影響其他的
+    const settled = await Promise.allSettled(
       DATA_URLS.map(url =>
-        fetch(url, { cache: 'no-store' })           // no-store：每次都跳過瀏覽器快取
+        fetch(url, { cache: 'no-store' })
           .then(r => {
             if (!r.ok) throw new Error(`HTTP ${r.status} — ${url}`)
             return r.json()
           })
       )
     )
-    // 支援兩種 JSON 格式：
-    //   { machine: {...} }   ← 單機格式（interval_hours 或 interval_minutes）
-    //   { machines: [...] }  ← 未來 API 回傳陣列格式
-    const flat = results.flatMap(r =>
-      r.machine  ? [r.machine]  :
-      r.machines ? r.machines   : []
-    )
-    machines.value  = flat
+
+    // 把成功的挑出來，失敗的記錄 console 但不中斷
+    const failedUrls = []
+    const succeeded  = settled.flatMap((result, i) => {
+      if (result.status === 'fulfilled') {
+        const r = result.value
+        return r.machine  ? [r.machine]  :
+               r.machines ? r.machines   : []
+      } else {
+        failedUrls.push(DATA_URLS[i])
+        console.warn('[useMachines] 單筆失敗:', DATA_URLS[i], result.reason)
+        return []
+      }
+    })
+
+    // 成功的更新，失敗的機器保留上一次的資料
+    if (succeeded.length > 0) {
+      const failedIds = new Set(
+        failedUrls.map(url => {
+          const match = url.match(/\/(M\d+)_/)
+          return match ? match[1] : null
+        }).filter(Boolean)
+      )
+      machines.value = [
+        ...machines.value.filter(m => failedIds.has(m.machine_id)),
+        ...succeeded,
+      ]
+    }
+
+    // 有失敗的話顯示部分失敗提示
+    if (failedUrls.length > 0) {
+      error.value = `${failedUrls.length} 台機器資料更新失敗，其餘正常`
+    }
+
     lastFetchAt.value = new Date()
   } catch (e) {
     error.value = e.message
