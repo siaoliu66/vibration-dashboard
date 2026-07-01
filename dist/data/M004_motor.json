@@ -1,0 +1,289 @@
+{
+  "generated_at": "2026-06-29T08:00:00",
+  "interval_hours": 12,
+  "machines_count": 5,
+  "machine": {
+    "machine_id": "M004",
+    "name": "主驅動馬達 A",
+    "type": "motor",
+    "location": "生產線 D 區 - 1F",
+    "rpm": 1500,
+    "status": "normal",
+    "image": {
+      "format": "png",
+      "encoding": "base64",
+      "data": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVR4nGOoL78LAANMAdSxZ66nAAAAAElFTkSuQmCC"
+    },
+    "sensor": {
+      "model": "PW-RVT",
+      "axes": [
+        "X",
+        "Y",
+        "Z"
+      ],
+      "temp": true
+    },
+    "data": [
+      {
+        "timestamp": "2026-06-19T08:00:00",
+        "vibration": {
+          "x_axis_g": 0.1388,
+          "y_axis_g": 0.1309,
+          "z_axis_g": 0.042,
+          "rms_g": 0.1274,
+          "peak_g": 0.2288,
+          "crest_factor": 2.74,
+          "dominant_freq_hz": 25.2
+        },
+        "temperature_c": 47.41
+      },
+      {
+        "timestamp": "2026-06-19T20:00:00",
+        "vibration": {
+          "x_axis_g": 0.1205,
+          "y_axis_g": 0.1253,
+          "z_axis_g": 0.051,
+          "rms_g": 0.1209,
+          "peak_g": 0.2033,
+          "crest_factor": 2.67,
+          "dominant_freq_hz": 25.2
+        },
+        "temperature_c": 48.03
+      },
+      {
+        "timestamp": "2026-06-20T08:00:00",
+        "vibration": {
+          "x_axis_g": 0.1326,
+          "y_axis_g": 0.1341,
+          "z_axis_g": 0.0459,
+          "rms_g": 0.1151,
+          "peak_g": 0.2022,
+          "crest_factor": 2.72,
+          "dominant_freq_hz": 25.1
+        },
+        "temperature_c": 47.95
+      },
+      {
+        "timestamp": "2026-06-20T20:00:00",
+        "vibration": {
+          "x_axis_g": 0.1612,
+          "y_axis_g": 0.1329,
+          "z_axis_g": 0.0559,
+          "rms_g": 0.1224,
+          "peak_g": 0.2174,
+          "crest_factor": 2.57,
+          "dominant_freq_hz": 24.8
+        },
+        "temperature_c": 48.09
+      },
+      {
+        "timestamp": "2026-06-21T08:00:00",
+        "vibration": {
+          "x_axis_g": 0.141,
+          "y_axis_g": 0.1183,
+          "z_axis_g": 0.0502,
+          "rms_g": 0.0951,
+          "peak_g": 0.1989,
+          "crest_factor": 2.42,
+          "dominant_freq_hz": 25.0
+        },
+        "temperature_c": 48.12
+      },
+      {
+        "timestamp": "2026-06-21T20:00:00",
+        "vibration": {
+          "x_axis_g": 0.1539,
+          "y_axis_g": 0.13,
+          "z_axis_g": 0.0418,
+          "rms_g": 0.0999,
+          "peak_g": 0.2182,
+          "crest_factor": 3.16,
+          "dominant_freq_hz": 24.7
+        },
+        "temperature_c": 47.59
+      },
+      {
+        "timestamp": "2026-06-22T08:00:00",
+        "vibration": {
+          "x_axis_g": 0.1486,
+          "y_axis_g": 0.1309,
+          "z_axis_g": 0.0584,
+          "rms_g": 0.1246,
+          "peak_g": 0.2117,
+          "crest_factor": 2.96,
+          "dominant_freq_hz": 25.3
+        },
+        "temperature_c": 47.92
+      },
+      {
+        "timestamp": "2026-06-22T20:00:00",
+        "vibration": {
+          "x_axis_g": 0.1501,
+          "y_axis_g": 0.1443,
+          "z_axis_g": 0.0499,
+          "rms_g": 0.1091,
+          "peak_g": 0.2206,
+          "crest_factor": 2.49,
+          "dominant_freq_hz": 24.5
+        },
+        "temperature_c": 47.3
+      },
+      {
+        "timestamp": "2026-06-23T08:00:00",
+        "vibration": {
+          "x_axis_g": 0.1314,
+          "y_axis_g": 0.1467,
+          "z_axis_g": 0.0578,
+          "rms_g": 0.1114,
+          "peak_g": 0.2005,
+          "crest_factor": 2.95,
+          "dominant_freq_hz": 25.1
+        },
+        "temperature_c": 47.88
+      },
+      {
+        "timestamp": "2026-06-23T20:00:00",
+        "vibration": {
+          "x_axis_g": 0.1607,
+          "y_axis_g": 0.1423,
+          "z_axis_g": 0.0564,
+          "rms_g": 0.1031,
+          "peak_g": 0.2404,
+          "crest_factor": 3.03,
+          "dominant_freq_hz": 24.8
+        },
+        "temperature_c": 48.59
+      },
+      {
+        "timestamp": "2026-06-24T08:00:00",
+        "vibration": {
+          "x_axis_g": 0.127,
+          "y_axis_g": 0.135,
+          "z_axis_g": 0.0427,
+          "rms_g": 0.1137,
+          "peak_g": 0.2206,
+          "crest_factor": 2.48,
+          "dominant_freq_hz": 25.5
+        },
+        "temperature_c": 47.55
+      },
+      {
+        "timestamp": "2026-06-24T20:00:00",
+        "vibration": {
+          "x_axis_g": 0.1214,
+          "y_axis_g": 0.113,
+          "z_axis_g": 0.0477,
+          "rms_g": 0.1037,
+          "peak_g": 0.2041,
+          "crest_factor": 2.62,
+          "dominant_freq_hz": 25.3
+        },
+        "temperature_c": 47.23
+      },
+      {
+        "timestamp": "2026-06-25T08:00:00",
+        "vibration": {
+          "x_axis_g": 0.1233,
+          "y_axis_g": 0.1267,
+          "z_axis_g": 0.0381,
+          "rms_g": 0.1204,
+          "peak_g": 0.2033,
+          "crest_factor": 3.06,
+          "dominant_freq_hz": 24.6
+        },
+        "temperature_c": 48.58
+      },
+      {
+        "timestamp": "2026-06-25T20:00:00",
+        "vibration": {
+          "x_axis_g": 0.1483,
+          "y_axis_g": 0.1239,
+          "z_axis_g": 0.0393,
+          "rms_g": 0.117,
+          "peak_g": 0.2023,
+          "crest_factor": 3.08,
+          "dominant_freq_hz": 24.7
+        },
+        "temperature_c": 48.05
+      },
+      {
+        "timestamp": "2026-06-26T08:00:00",
+        "vibration": {
+          "x_axis_g": 0.1463,
+          "y_axis_g": 0.1509,
+          "z_axis_g": 0.0411,
+          "rms_g": 0.1314,
+          "peak_g": 0.2037,
+          "crest_factor": 2.41,
+          "dominant_freq_hz": 25.4
+        },
+        "temperature_c": 47.77
+      },
+      {
+        "timestamp": "2026-06-26T20:00:00",
+        "vibration": {
+          "x_axis_g": 0.1606,
+          "y_axis_g": 0.1398,
+          "z_axis_g": 0.0366,
+          "rms_g": 0.1152,
+          "peak_g": 0.2093,
+          "crest_factor": 2.79,
+          "dominant_freq_hz": 25.3
+        },
+        "temperature_c": 47.6
+      },
+      {
+        "timestamp": "2026-06-27T08:00:00",
+        "vibration": {
+          "x_axis_g": 0.1489,
+          "y_axis_g": 0.1347,
+          "z_axis_g": 0.0476,
+          "rms_g": 0.106,
+          "peak_g": 0.2185,
+          "crest_factor": 2.82,
+          "dominant_freq_hz": 24.9
+        },
+        "temperature_c": 47.83
+      },
+      {
+        "timestamp": "2026-06-27T20:00:00",
+        "vibration": {
+          "x_axis_g": 0.1397,
+          "y_axis_g": 0.1192,
+          "z_axis_g": 0.0481,
+          "rms_g": 0.1064,
+          "peak_g": 0.1989,
+          "crest_factor": 2.55,
+          "dominant_freq_hz": 24.6
+        },
+        "temperature_c": 48.15
+      },
+      {
+        "timestamp": "2026-06-28T08:00:00",
+        "vibration": {
+          "x_axis_g": 0.1152,
+          "y_axis_g": 0.1255,
+          "z_axis_g": 0.0522,
+          "rms_g": 0.1204,
+          "peak_g": 0.2308,
+          "crest_factor": 3.18,
+          "dominant_freq_hz": 25.0
+        },
+        "temperature_c": 48.05
+      },
+      {
+        "timestamp": "2026-06-28T20:00:00",
+        "vibration": {
+          "x_axis_g": 0.1386,
+          "y_axis_g": 0.1354,
+          "z_axis_g": 0.052,
+          "rms_g": 0.1207,
+          "peak_g": 0.2002,
+          "crest_factor": 2.83,
+          "dominant_freq_hz": 24.8
+        },
+        "temperature_c": 48.05
+      }
+    ]
+  }
+}
