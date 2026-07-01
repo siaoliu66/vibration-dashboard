@@ -1,0 +1,158 @@
+{
+  "generated_at": "2026-06-28T08:00:00",
+  "interval_minutes": 5,
+  "machine": {
+    "machine_id": "M005",
+    "name": "輸送帶馬達 B",
+    "type": "motor",
+    "location": "生產線 E 區 - 1F",
+    "rpm": 1500,
+    "status": "fault",
+    "image": {
+      "format": "png",
+      "encoding": "base64",
+      "data": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVR4nGN45O0FAAOKAXhGriggAAAAAElFTkSuQmCC"
+    },
+    "sensor": {
+      "model": "PW-RVT",
+      "axes": [
+        "X",
+        "Y",
+        "Z"
+      ],
+      "temp": true
+    },
+    "data": [
+      {
+        "timestamp": "2026-06-28T08:00:00",
+        "vibration": {
+          "x_axis_g": 0.167,
+          "y_axis_g": 0.1053,
+          "z_axis_g": 0.0562,
+          "rms_g": 0.0948,
+          "peak_g": 0.2311,
+          "crest_factor": 2.67,
+          "dominant_freq_hz": 25.4
+        },
+        "temperature_c": 48.08
+      },
+      {
+        "timestamp": "2026-06-28T08:05:00",
+        "vibration": {
+          "x_axis_g": 0.1557,
+          "y_axis_g": 0.1116,
+          "z_axis_g": 0.0544,
+          "rms_g": 0.1113,
+          "peak_g": 0.209,
+          "crest_factor": 3.25,
+          "dominant_freq_hz": 25.4
+        },
+        "temperature_c": 48.11
+      },
+      {
+        "timestamp": "2026-06-28T08:10:00",
+        "vibration": {
+          "x_axis_g": 0.1564,
+          "y_axis_g": 0.1639,
+          "z_axis_g": 0.0469,
+          "rms_g": 0.1252,
+          "peak_g": 0.2187,
+          "crest_factor": 2.66,
+          "dominant_freq_hz": 24.7
+        },
+        "temperature_c": 48.29
+      },
+      {
+        "timestamp": "2026-06-28T08:15:00",
+        "vibration": {
+          "x_axis_g": 0.1409,
+          "y_axis_g": 0.1692,
+          "z_axis_g": 0.0631,
+          "rms_g": 0.126,
+          "peak_g": 0.2354,
+          "crest_factor": 3.66,
+          "dominant_freq_hz": 25.0
+        },
+        "temperature_c": 48.51
+      },
+      {
+        "timestamp": "2026-06-28T08:20:00",
+        "vibration": {
+          "x_axis_g": 0.1704,
+          "y_axis_g": 0.1482,
+          "z_axis_g": 0.0637,
+          "rms_g": 0.1311,
+          "peak_g": 0.2459,
+          "crest_factor": 2.98,
+          "dominant_freq_hz": 24.9
+        },
+        "temperature_c": 48.95
+      },
+      {
+        "timestamp": "2026-06-28T08:25:00",
+        "vibration": {
+          "x_axis_g": 0.166,
+          "y_axis_g": 0.1436,
+          "z_axis_g": 0.051,
+          "rms_g": 0.1294,
+          "peak_g": 0.2583,
+          "crest_factor": 3.25,
+          "dominant_freq_hz": 25.2
+        },
+        "temperature_c": 49.51
+      },
+      {
+        "timestamp": "2026-06-28T08:30:00",
+        "vibration": {
+          "x_axis_g": 0.216,
+          "y_axis_g": 0.1616,
+          "z_axis_g": 0.0466,
+          "rms_g": 0.1376,
+          "peak_g": 0.248,
+          "crest_factor": 3.5,
+          "dominant_freq_hz": 24.6
+        },
+        "temperature_c": 49.05
+      },
+      {
+        "timestamp": "2026-06-28T08:35:00",
+        "vibration": {
+          "x_axis_g": 0.1704,
+          "y_axis_g": 0.1546,
+          "z_axis_g": 0.0562,
+          "rms_g": 0.1638,
+          "peak_g": 0.2577,
+          "crest_factor": 3.57,
+          "dominant_freq_hz": 24.9
+        },
+        "temperature_c": 49.5
+      },
+      {
+        "timestamp": "2026-06-28T08:40:00",
+        "vibration": {
+          "x_axis_g": 0.1712,
+          "y_axis_g": 0.1793,
+          "z_axis_g": 0.0737,
+          "rms_g": 0.158,
+          "peak_g": 0.2904,
+          "crest_factor": 4.37,
+          "dominant_freq_hz": 25.1
+        },
+        "temperature_c": 49.83
+      },
+      {
+        "timestamp": "2026-06-28T08:45:00",
+        "vibration": {
+          "x_axis_g": 0.1824,
+          "y_axis_g": 0.1964,
+          "z_axis_g": 0.077,
+          "rms_g": 0.1551,
+          "peak_g": 0.2942,
+          "crest_factor": 4.24,
+          "dominant_freq_hz": 25.0
+        },
+        "temperature_c": 50.42
+      }
+    ]
+  }
+}
