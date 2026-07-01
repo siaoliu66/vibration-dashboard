@@ -4,11 +4,11 @@ import { ref, readonly } from 'vue'
 // 靜態模式（開發測試）：檔案放在 public/data/ 讓 Vite dev server 直接 serve
 // 生產模式：把 DATA_URLS 換成實際 API endpoint，或改用單一 /api/machines endpoint
 const DATA_URLS = [
-  '/data/M001_fan.json',
-  '/data/M002_fan.json',
-  '/data/M003_pump.json',
-  '/data/M004_motor.json',
-  '/data/M005_motor.json',
+  import.meta.env.BASE_URL + 'data/M001_fan.json',
+  import.meta.env.BASE_URL + 'data/M002_fan.json',
+  import.meta.env.BASE_URL + 'data/M003_pump.json',
+  import.meta.env.BASE_URL + 'data/M004_motor.json',
+  import.meta.env.BASE_URL + 'data/M005_motor.json',
 ]
 
 // 自動輪詢間隔（毫秒），設 0 則停用
